@@ -1,4 +1,7 @@
-# helloprint
+# Product Vue Demo
+
+## CrudCrud
+This project uses https://crudcrud.com/ as API. To have this working properly it's necessary to configure correctly the apiUri on the file `utils/api.js`.
 
 ## Project setup
 ```
