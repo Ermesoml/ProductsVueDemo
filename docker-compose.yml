@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+    app:
+      build: .
+      volumes:
+        - .:/app
+        - /app/node_modules
+      working_dir: /app
+      environment:
+        - npm_config_unsafe_perm=true
+      ports:
+        - 8080:8080
+      command: ['npm', 'run', 'serve']
