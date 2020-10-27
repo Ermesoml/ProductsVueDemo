@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiUri = "https://crudcrud.com/api/cea207ed70bd4c918efb0b89f4302b2f";
+const apiUri = "https://crudcrud.com/api/8422636ccaec42418ec16a1f448b626c";
 
 const get = async function(resource, params) {
     return await axios.get(`${apiUri}/${resource}`, { params });   
